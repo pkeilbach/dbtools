@@ -6,23 +6,20 @@ with open('README.md', 'r') as f:
 setuptools.setup(
     name='dbtools',
     version='1.4.0',
-    author='PK17',
+    author='Pascal Keilbach',
     author_email='python@pk17.org',
     description='A convenience wrapper for MySQL',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='',
+    url='https://github.com/pkeilbach/dbtools',
     packages=setuptools.find_packages(),
     install_requires=[
         'mysql-connector-python',
         'pandas'
     ],
-    dependency_links=[
-        '',
-    ],
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: TODO',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent'
     ],
     python_requires='>=3.6'
