@@ -7,7 +7,7 @@ setuptools.setup(
     name='dbtools',
     version='1.4.0',
     author='Pascal Keilbach',
-    author_email='python@pk17.org',
+    author_email='dev@pk17.org',
     description='A convenience wrapper for MySQL',
     long_description=long_description,
     long_description_content_type='text/markdown',
